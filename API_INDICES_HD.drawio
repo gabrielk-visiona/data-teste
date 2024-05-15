@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T19:37:46.561Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="DVp8oJZ0pnKbueOsB5B4" version="24.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-15T19:46:38.001Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="s0O8qSrzztxt2kId0pZ-" version="24.4.0" type="github" pages="3">
   <diagram name="DDL_INDICES_HD_AGROEXPLORE" id="qbCjP9HzWmNe12VGpHXj">
     <mxGraphModel dx="2284" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,7 +311,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_2kFi9-t097IorIopCyW" name="Fluxograma Search">
-    <mxGraphModel dx="2646" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2490" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -611,7 +611,7 @@
         <mxCell id="cKVbWnbQE380t9d47TJn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cKVbWnbQE380t9d47TJn-17" target="cKVbWnbQE380t9d47TJn-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cKVbWnbQE380t9d47TJn-17" value="search catalog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="cKVbWnbQE380t9d47TJn-17" value="search scenes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="550" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cKVbWnbQE380t9d47TJn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cKVbWnbQE380t9d47TJn-20" target="cKVbWnbQE380t9d47TJn-9">
