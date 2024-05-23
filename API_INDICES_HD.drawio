@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T12:57:59.248Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7orzZ2PEgsPp7TpCtztV" version="24.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-23T13:23:11.450Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="oETqgCA86c2NGqr2ZWjD" version="24.4.4" type="github" pages="3">
   <diagram name="DDL_INDICES_HD_AGROEXPLORE" id="qbCjP9HzWmNe12VGpHXj">
     <mxGraphModel dx="2214" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1045,32 +1045,26 @@
         <mxCell id="HEa8HesryNzD42dtUrH7-146" value="ROTINA AIRFLOW (RASCUNHO)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="775" y="790" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-148" target="VgZg6DxCwB6ET24fQes8-1">
+        <mxCell id="OHSErClyabpmihRPxlnJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-148" target="HEa8HesryNzD42dtUrH7-160">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-148" value="Download PAN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1130" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-149" target="VgZg6DxCwB6ET24fQes8-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HEa8HesryNzD42dtUrH7-149" value="Zip band" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1508.5" y="1040" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-151" target="HEa8HesryNzD42dtUrH7-152">
+        <mxCell id="VgZg6DxCwB6ET24fQes8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HEa8HesryNzD42dtUrH7-151" target="HEa8HesryNzD42dtUrH7-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-151" value="update_igd_status&lt;div&gt;_complete_task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="1612.22" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-152" value="end task" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2190" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="1622.22" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-154" target="HEa8HesryNzD42dtUrH7-152">
+        <mxCell id="VgZg6DxCwB6ET24fQes8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HEa8HesryNzD42dtUrH7-154" target="HEa8HesryNzD42dtUrH7-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-154" value="Erro download handler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="1452.22" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HEa8HesryNzD42dtUrH7-157" target="HEa8HesryNzD42dtUrH7-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1083,11 +1077,11 @@
         </mxCell>
         <mxCell id="UzWK1ocoIxghY32tkV4p-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HEa8HesryNzD42dtUrH7-160" target="HEa8HesryNzD42dtUrH7-151" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2080" y="1070" as="targetPoint" />
+            <mxPoint x="1512.22" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-160" value="process success" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="1452.22" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HEa8HesryNzD42dtUrH7-161" value="TB_IMAGEM_GOV_DOWNLOAD" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="1130" width="320" height="210" as="geometry" />
@@ -1179,12 +1173,6 @@
         <mxCell id="HEa8HesryNzD42dtUrH7-182" value="ROTINA AIRFLOW (RASCUNHO) DOWNLOAD BANDA PAN" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="775" y="750" width="570" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HEa8HesryNzD42dtUrH7-185" target="HEa8HesryNzD42dtUrH7-160">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HEa8HesryNzD42dtUrH7-185" value="Upload storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1860" y="1040" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lIeGRBHDQeKxBC8VRj3I-1" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;TB_IMAGEM_GOV_DOWNLOAD&lt;/span&gt;&lt;br&gt;&lt;div&gt;STATUS = AGUARDANDO&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;TIPO = PAN&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="740" y="980" width="182.22" height="70" as="geometry" />
         </mxCell>
@@ -1192,10 +1180,10 @@
           <mxGeometry x="930" y="820" width="182.22" height="70" as="geometry" />
         </mxCell>
         <mxCell id="a3ktPIBupFICsJOK0Eit-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;TB_IMAGEM_GOV_DOWNLOAD&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;STATUS = COMPLETO&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;TIPO = PAN&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2180" y="1110" width="120" height="60" as="geometry" />
+          <mxGeometry x="1612.22" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a3ktPIBupFICsJOK0Eit-2" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;TB_ERRO_DOWNLOAD_GOV&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1837.78" y="900" width="182.22" height="70" as="geometry" />
+          <mxGeometry x="1270" y="900" width="182.22" height="70" as="geometry" />
         </mxCell>
         <mxCell id="B6tVeaD0CQM_4_fO76K3-39" value="TB_PROCESSAMENTO_IMG_GOV" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="1040" width="430" height="210" as="geometry" />
@@ -1277,18 +1265,6 @@
           <mxGeometry x="30" width="400" height="30" as="geometry">
             <mxRectangle width="400" height="30" as="alternateBounds" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VgZg6DxCwB6ET24fQes8-1" target="HEa8HesryNzD42dtUrH7-149">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-1" value="check_path_download" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1040" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VgZg6DxCwB6ET24fQes8-5" target="HEa8HesryNzD42dtUrH7-185">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VgZg6DxCwB6ET24fQes8-5" value="check_zip_path" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
