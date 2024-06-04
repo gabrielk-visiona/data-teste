@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T12:41:03.496Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yZNZZJ9DFPjXcbf1o7y5" version="24.4.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-04T12:54:59.762Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="h1K4AML_iS2_FB2gOXbI" version="24.4.13" type="github" pages="5">
   <diagram name="DDL_INDICES_HD_AGROEXPLORE" id="qbCjP9HzWmNe12VGpHXj">
     <mxGraphModel>
       <root>
@@ -977,8 +977,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="m3BInTGhkgo1vBBxIzkX-1" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;CHECAR CADA BANDA DA IMAGEM (TB_GOV_DOWNLOAD)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;STATUS=COMPLETO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; UPLOAD NO STORAGE EM DEV/BRUTAS DIRETORIO DA CENA EM .ZIP COM BANDAS CLIPADAS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; ATUALIZAR TB_IMAGEM_GOV CAMPOS: dt_armazenamento e path_armazenamento&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; INSERIR NA TABELA TB_PROCESSAMENTO_GOV TIPO MERGE = AGUARDANDO&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="830" y="890" width="620" height="120" as="geometry" />
+        <mxCell id="m3BInTGhkgo1vBBxIzkX-1" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;CHECAR CADA BANDA DA IMAGEM (TB_GOV_DOWNLOAD)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;STATUS=COMPLETO&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; UPLOAD NO STORAGE EM DEV/BRUTAS DIRETORIO DA CENA EM .ZIP COM BANDAS CLIPADAS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; ATUALIZAR TB_IMAGEM_GOV CAMPOS: dt_armazenamento e path_armazenamento, path deve ser unico (inserir data e hora no nome)&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;-&amp;gt; INSERIR NA TABELA TB_PROCESSAMENTO_GOV TIPO MERGE = AGUARDANDO&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="830" y="900" width="840" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
