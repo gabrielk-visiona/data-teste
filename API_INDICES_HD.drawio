@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T12:51:04.793Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lWPiBr4s1mHg9WQkl4fD" version="24.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-11T13:03:24.235Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TvvGVcZV8VbLzCLZzqTr" version="24.5.2" type="github" pages="5">
   <diagram name="DDL_INDICES_HD_AGROEXPLORE" id="qbCjP9HzWmNe12VGpHXj">
     <mxGraphModel>
       <root>
@@ -997,7 +997,7 @@
         <mxCell id="sRxYPivqAXe687wJNEWW-3" value="insert status executando" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="992.22" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UYMzYA2kTqwcMpCusKcA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sRxYPivqAXe687wJNEWW-5" target="UYMzYA2kTqwcMpCusKcA-2">
+        <mxCell id="UYMzYA2kTqwcMpCusKcA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sRxYPivqAXe687wJNEWW-5" target="UYMzYA2kTqwcMpCusKcA-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sRxYPivqAXe687wJNEWW-5" value="insert status &lt;br&gt;complete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -1035,7 +1035,7 @@
         <mxCell id="sRxYPivqAXe687wJNEWW-16" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;/div&gt;&lt;div&gt;STATUS = AGUARDANDO&lt;/div&gt;&lt;div&gt;TIPO=MERGE_BANDAS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="737.78" y="970" width="182.22" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="sRxYPivqAXe687wJNEWW-17" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;/div&gt;&lt;div&gt;INSERT&lt;/div&gt;&lt;div&gt;STATUS = COMPLETO&lt;/div&gt;&lt;div&gt;TIPO=MERGE_BANDAS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="sRxYPivqAXe687wJNEWW-17" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;/div&gt;&lt;div&gt;INSERT&lt;/div&gt;&lt;div&gt;STATUS = COMPLETO&lt;/div&gt;&lt;div&gt;TIPO=MERGE_BANDAS&lt;/div&gt;&lt;div&gt;PATH=caminho no storage&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1680" y="1100" width="187.78" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sRxYPivqAXe687wJNEWW-18" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;TB_ERRO_PROCESSAMENTO_GOV&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
@@ -1065,13 +1065,13 @@
         <mxCell id="sRxYPivqAXe687wJNEWW-25" value="merge_bandas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O6dAVv2pBC26l2Fq1KDR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UYMzYA2kTqwcMpCusKcA-2" target="sRxYPivqAXe687wJNEWW-22">
+        <mxCell id="O6dAVv2pBC26l2Fq1KDR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UYMzYA2kTqwcMpCusKcA-2" target="sRxYPivqAXe687wJNEWW-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UYMzYA2kTqwcMpCusKcA-2" value="update_proc_record" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+        <mxCell id="UYMzYA2kTqwcMpCusKcA-2" value="update_proc_record" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1920" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O6dAVv2pBC26l2Fq1KDR-1" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;/div&gt;&lt;div&gt;INSERT&lt;/div&gt;&lt;div&gt;STATUS = AGUARDANDO&lt;/div&gt;&lt;div&gt;TIPO=PAN_SHARPENING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="O6dAVv2pBC26l2Fq1KDR-1" value="&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;/div&gt;&lt;div&gt;INSERT&lt;/div&gt;&lt;div&gt;STATUS = AGUARDANDO&lt;/div&gt;&lt;div&gt;TIPO=PAN_SHARPENING&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1920" y="1090" width="187.78" height="120" as="geometry" />
         </mxCell>
       </root>
