@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T18:51:12.417Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aNOgvyWKD1qFmDwoK5TR" version="24.6.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-12T19:00:41.779Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9xHtoagiukhDQcRx3mDJ" version="24.6.4" type="github" pages="7">
   <diagram name="DDL_INDICES_HD_AGROEXPLORE" id="qbCjP9HzWmNe12VGpHXj">
     <mxGraphModel>
       <root>
@@ -1177,13 +1177,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="o-xrTwAIxdEyWq0s4BjZ-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;search imagens&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;- filtrar cenas com menos de 80% de nuvem" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="280" y="290" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="o-xrTwAIxdEyWq0s4BjZ-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;download_bands&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- máscara de nuvens em relação a area otimizada&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="290" width="140" height="140" as="geometry" />
+          <mxGeometry x="220" y="190" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="o-xrTwAIxdEyWq0s4BjZ-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;extração de índices de cada talhão&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- consultar % de nuvens antes da area otimizada&amp;nbsp;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="730" y="290" width="140" height="140" as="geometry" />
+          <mxGeometry x="200" y="800" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="o-xrTwAIxdEyWq0s4BjZ-5" value="- mascara utiliza bandas RED, BLUE e NIR&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;armazenar % de nuvens obtida&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="555" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o-xrTwAIxdEyWq0s4BjZ-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;pipeline_mascara&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- pipeline antes do pipeline intermediario (download_merge)&lt;/div&gt;&lt;div&gt;- adicionar como processo novo (&lt;span style=&quot;font-weight: 700; text-wrap: nowrap; background-color: initial;&quot;&gt;tb_processamento_imagem_gov&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="C-uJzJnfY5dZS9O32x0J-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;IMPLEMENTAÇÃO DA MÁSCARA DE NUNVENS - WPM CBERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="30" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-uJzJnfY5dZS9O32x0J-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;1) Filtro de Cena&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C-uJzJnfY5dZS9O32x0J-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;3) Filtro de Talhão&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C-uJzJnfY5dZS9O32x0J-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;2) Filtro de Área Otimizada&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
